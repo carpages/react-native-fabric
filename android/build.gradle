@@ -39,8 +39,8 @@ repositories {
 }
 
 dependencies {
-    compile "com.facebook.react:react-native:${safeExtGet('reactNative', '+')}"
-    compile('com.crashlytics.sdk.android:crashlytics:2.9.4@aar') {
+    implementation "com.facebook.react:react-native:${safeExtGet('reactNative', '+')}"
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.4@aar') {
         transitive = true;
     }
 }
